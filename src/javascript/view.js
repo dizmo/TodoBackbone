@@ -58,7 +58,7 @@ app.TodoView = Backbone.View.extend({
 
 // renders the full list of todo items calling TodoView for each one.
 app.AppView = Backbone.View.extend({
-    el: '#task-entry',
+    el: '#front',
     initialize: function () {
         this.input = this.$('#new-todo');
         // when new elements are added to the collection render then with addOne
@@ -114,5 +114,3 @@ app.AppView = Backbone.View.extend({
         return false;
     }
 });
-
-
