@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Todobb</title>
+    <!-- jQuery libraries -->
+    <link rel="stylesheet" type="text/css" href="lib/jquery-ui/css/custom-theme/jquery-ui-1.10.3.custom.min.css" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+    <!-- End of jQuery libraries -->
+
+    <!-- Backbone.js libraries -->
+    <script type="text/javascript" src="lib/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/backbone/backbone-min.js"></script>
+    <script type="text/javascript" src="lib/backbone-dizmo/backbone-dizmo.js"></script>
+    <!-- End of Backbone libraries -->
+
+    <!-- Joose JavaScript Class framework -->
+    <script type="text/javascript" src="lib/joose/joose.min.js"></script>
+    <!-- End of Joose framework -->
+
+    <!-- Utilities for dizmos -->
+    <script type="text/javascript" src="lib/dizmo/dizmoHelper.js"></script>
+    <!-- End of utilities -->
+
+    <!-- Your own stylesheet (do not remove!)-->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <div id="front">
+        <div id="task-entry">
+            <input id="new-todo" data-type="dizmo-input" placeholder="Add a new task"  required>
+        </div>
+        <div id="main">
+            <div class="list dizmo-no-drag" data-type="dizmo-list" id="listdiv"><ul id="todo-list"></ul></div>
+        </div>
+
+        <div id="actions">
+            <button id="clear-all" data-type="dizmo-button">Clear all</button>
+            <button id="clear-completed" data-type="dizmo-button">Clear completed</button>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <script type="text/template" id="item-template">
+
+        <input class="toggle" data-type="dizmo-checkbox" type="checkbox" <%= completed ? 'checked' : '' %>>
+        <label class="tasklabel <%= completed ? 'done' : ''%>"><%- title %></label>
+        <input data-type="dizmo-input" class="edit" value="<%- title %>">
+        <button data-type="dizmo-button" class="destroy">x</button>
+
+    </script>
+
+    <!-- Your own JavaScript (do not remove!) -->
+    <script type="text/javascript" src="application.js"></script>
+</body>
+</html>
