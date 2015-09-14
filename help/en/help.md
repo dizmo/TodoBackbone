@@ -1,28 +1,26 @@
-# (Display Name of the dizmo)
+# To Do
 
 **Table of contents**
 
-1. Summary
+1. Screenshots
 2. Description
-3. Examples
-4. Additional Information
+3. What is new in V0.1
+4. Additional information
 
-## Summary
+## Screenshots
 
- (A short summary of the purpose of the dizmo)
- 
+![Dizmo tutorial with Backbone.js](./Todobb.png)
+
 ## Description
 
-(A more in depth description of what can be done with the dizmo and how it should be used. This may include images as well)  
-![The dizmo Icon](./Icon.png =32x32)
+Build a to-do dizmo using the Backbone.js library. Read the full tutorial on our [blog](https://www.dizmo.com/how-to-write-a-to-do-dizmo-with-backbone-js/).
 
-## Examples
+## What is new in V0.1
 
-(Some examples explaining how the dizmo could be used)
+* Dizmo tutorial with Backbone.js.
 
 ## Additional Information
 
-* Developer: (Developers Name)
-* Publisher: (Publisher's Name, remove if same as Developer)
-* Contact: (Who to contact for additional information or support)
-* Website: (URL of the dizmo providing additional information)
+Developer: dizmo AG
+Contact: support@dizmo.com
+Website: [www.dizmo.com](https://www.dizmo.com)
