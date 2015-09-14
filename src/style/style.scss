@@ -2,6 +2,11 @@
     -apple-dashboard-region: dashboard-region(control rectangle);
 }
 
+#task-entry{
+  margin-left: 2px;
+  margin-right: 4px;
+}
+
 #actions {
   position: relative;
   top: 212px;
@@ -9,18 +14,19 @@
 
 #clear-all{
   float: left;
-  margin-left: -1px;
+  margin-left: 1px;
   clear: left;
 }
 
 #clear-completed{
   float: right;
   clear: right;
+  margin-right: 4px;
 }
 
 .dizmo-checkbox{
   float: left;
-  margin-left: -5px;
+  margin-left: -6px;
   clear: left;
 }
 
@@ -32,16 +38,16 @@ label {
   line-height: 32px;
   overflow: hidden;
   clear: left;
-  padding-left: 3px;
+  padding-left: 1px;
 }
 
 .tasklabel {
-  max-width: 120px;
+  max-width: 110px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   vertical-align: middle;
-  display: inline-block;
+  //display: inline-block;
 }
 
 #new-todo {
@@ -54,14 +60,20 @@ label {
 
 .destroy {
   float: right !important;
+  vertical-align: middle;
+  margin-right: -14px;
 }
 
+
+#listdiv{
+  margin-left: 2px;
+}
 .list {
   border-top: 1px solid rgba(114, 178, 222, 0.5);
   border-bottom: 1px solid rgba(114, 178, 222, 0.5);
   height: 200px;
   top: 40px;
-  width: 220px;
+  width: 228px;
   overflow: hidden;
   position: absolute;
 }
