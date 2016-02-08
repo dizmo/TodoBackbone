@@ -14,6 +14,6 @@ Build a to-do dizmo using the Backbone.js library. Read the full tutorial on our
 
 ## Additional Information
 
-Developer: dizmo AG
-Contact: support@dizmo.com
-Website: [www.dizmo.com](https://www.dizmo.com)
+Developer: dizmo AG<br>
+Contact: support@dizmo.com<br>
+Website: [www.dizmo.com](https://www.dizmo.com)<br>
